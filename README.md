@@ -28,8 +28,8 @@ Akan diisi berdasarkan studi kasus pada Modul 4.
 ```bash
 php artisan serve
 
-### Perbedaan git revert dan git reset
 
+### Perbedaan git revert dan git reset
 `git revert` membatalkan perubahan dari commit tertentu dengan membuat commit baru. Cara ini menjaga riwayat commit tetap tercatat.
 
 `git reset` memindahkan posisi HEAD ke commit tertentu dan dapat mengubah riwayat commit, terutama jika menggunakan mode yang menghapus atau mengubah commit setelah posisi tersebut.
@@ -39,3 +39,11 @@ Pada latihan ini digunakan `git revert` karena perubahan yang salah dibatalkan t
 ## Keterangan
 
 README versi branch A.
+=======
+## Keterangan
+
+README versi branch B.
+
+## Keterangan
+
+README final setelah merge conflict.
