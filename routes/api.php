@@ -17,3 +17,10 @@ Route::get('/info', function () {
         'php_version' => PHP_VERSION,
     ]);
 });
+
+Route::get('/profil-zee', function () {
+    return response()->json([
+        'nama' => 'Nimatul Azizah',
+        'peran' => 'Back End Developer',
+    ]);
+});
